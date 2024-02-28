@@ -55,8 +55,8 @@ public final class Einstein {
         + " a positive integer or decimal input.");
       }
 
-      // user did not enter in a float input
-    } catch (InputMismatchException error) {
+      // user did not enter in a double input
+    } catch (NumberFormatException error) {
       // displays error message
       System.out.println("Invalid input, please enter"
       + " a positive integer or decimal input.");
