@@ -26,7 +26,7 @@ public final class Einstein {
     // gets user input (pt.1)
     final Scanner scanner = new Scanner(System.in);
     System.out.println("What is the mass of your object (kg):");
-    
+
     // variable declaration
     final double mass;
 
@@ -51,15 +51,15 @@ public final class Einstein {
 
         // user imputed a negative or null mass
       } else {
-        System.out.println("Invalid input, please enter" +
-            " a positive integer or decimal input.");
+        System.out.println("Invalid input, please enter"
+        + " a positive integer or decimal input.");
       }
 
       // user did not enter in a float input
     } catch (InputMismatchException error) {
       // displays error message
-      System.out.println("Invalid input, please enter" +
-      " a positive integer or decimal input.");
+      System.out.println("Invalid input, please enter"
+      + " a positive integer or decimal input.");
     }
 
     // closes scanner
