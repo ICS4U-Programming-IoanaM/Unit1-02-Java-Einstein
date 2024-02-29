@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * This program calculates how many logs a truck can hold based on the size of the log.
+ * This program Einstein's equation.
  *
  * @author Ioana Marinescu
  * @version 1.0
@@ -45,13 +45,15 @@ public final class Einstein {
 
         // user imputed a negative or null mass
       } else {
-        System.out.println("Invalid input, please enter" + " a positive integer or decimal input.");
+        System.out.println("Invalid input, please enter"
+        + " a positive integer or decimal input.");
       }
 
       // user did not enter in a double input
     } catch (NumberFormatException error) {
       // displays error message
-      System.out.println("Invalid input, please enter" + " a positive integer or decimal input.");
+      System.out.println("Invalid input, please enter"
+      + " a positive integer or decimal input.");
     }
 
     // closes scanner
